@@ -4,7 +4,7 @@ OTP’s underlying network (referred to as a ‘graph’) was constructed by com
 
 Given the large geographical coverage, network data was downloaded as a .osm file for the entirety of Sweden from [Geofabrik.de](http://download.geofabrik.de/) and then clipped using [Osmium](https://docs.osmcode.org/osmium/latest/osmium-extract.html) to a rectangle with bounding coordinates covering only central Gothenburg. The reduced .osm file was then converted to .pbf (the required format for OTP) using [Osmconvert](https://wiki.openstreetmap.org/wiki/Osmconvert).
 
-For the setup and configuration of OTP V2, reference was continually made to the manual published by Open Trip Planner [7] and an instructional case-study in the [city of Manchester](https://www.researchgate.net/publication/321110774_OpenTripPlanner_-_creating_and_querying_your_own_multi-modal_route_planner), as well as to the public [GitHub repository of Cats et. al 2022 case-study](https://github.com/RafalKucharskiPK/query_PT) (comparing ride-hailing and public transport), that this repo is forked from, for Python scripts to batch-query a locally hosted OTP server.
+For the setup and configuration of OTP V2, reference was continually made to the manual published by Open Trip Planner and an instructional case-study in the [city of Manchester](https://www.researchgate.net/publication/321110774_OpenTripPlanner_-_creating_and_querying_your_own_multi-modal_route_planner), as well as to the public [GitHub repository of Cats et. al 2022 case-study](https://github.com/RafalKucharskiPK/query_PT) (comparing ride-hailing and public transport), that this repo is forked from, for Python scripts to batch-query a locally hosted OTP server.
 
 
 ### Input:
