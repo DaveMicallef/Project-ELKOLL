@@ -9,14 +9,14 @@ from time import sleep
 from utils import get_latest, merge_batches
 
 SLEEP_SINGLE = 0.1  # pause between queries so that we do not flood server
-SLEEP_BATCH = 10 # sleep between batches of requests, not to floog server
+SLEEP_BATCH = 10 # sleep between batches of requests, not to flood server
 SLEEP_RESTART = 60 # sleep after restarting the server (if needed)
 BATCH_SIZE = 50  # store results every batch_size trips and give a break to a server
 RESTART_EVERY = 30 # restart after every batch
 
 OTP_API = '"http://localhost:8080/otp/routers/default/plan"'
 QUERY_MODES = "TRANSIT,WALK"
-MAX_WALK_DISTANCE = 2000
+MAX_WALK_DISTANCE = 200
 
 
 
