@@ -10,7 +10,7 @@ For the setup and configuration of OTP V2, reference was continually made to the
 ### Input:
  * .csv file with requests 
  * .pbf file with OSM network
- * .zip with GTFS file for the area and date that we query (available from [TrafikLab using KoDa API]([https://www.transit.land/](https://www.trafiklab.se/api/trafiklab-apis/koda/))
+ * .zip with GTFS file for the area and date that we query (available from [TrafikLab using KoDa API](https://www.transit.land/](https://www.trafiklab.se/api/trafiklab-apis/koda/)))
  
  ### Output:
  * .csv with trip details (time, transfers, modes, wait and walk times, etc.)  
